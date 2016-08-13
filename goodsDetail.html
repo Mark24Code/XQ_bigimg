@@ -1,12 +1,12 @@
 <!doctype html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>无标题</title>
 </head>
 <body>
   <img src="img/demo.png" xq_big="true" setting='{"pwidth":400,"pheight":400,"margin_top":0,"margin_left":0}'/>
-  <!--  
+  <!--
   {
     "pwidth"  :   300,  //配置可视区域的宽度 默认300px
     "pheight" :   200,  //配置可视区域的高度 默认200px
@@ -19,5 +19,8 @@
    -->
 </body>
 </html>
-<script src="js/jquery-1.8.2.js"></script> 
-<script src="js/xq_bigimg.js"></script> 
+<script src="js/jquery-1.8.2.js"></script>
+<script src="js/xq_bigimg.js"></script>
+<script>
+$("img[xq_big='true']").XQ_bigimg();
+</script>
